@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4 pl-3">
             <Link to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
               <NudgeLogo />
-              <h1 className="text-xl font-bold tracking-wide text-primary">Nudge </h1><Link to="https://nuzzle.cyou" target="_blank" rel="noopener noreferrer" className="text-accent hover:scale-110 transition-transform">-by Nuzzle</Link>
+              <h1 className="text-xl font-bold tracking-wide text-primary">Nudge </h1><Link to="https://nuzzle.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-accent hover:scale-110 transition-transform">-by Nuzzle</Link>
             </Link>
           </div>
           <div className="flex items-center gap-2 pr-3">
