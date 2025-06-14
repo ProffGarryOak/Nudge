@@ -20,7 +20,17 @@ const Navbar = () => {
           <div className="flex items-center gap-4 pl-3">
             <Link to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
               <NudgeLogo />
-              <h1 className="text-xl font-bold tracking-wide text-primary">Nudge </h1><Link to="https://nuzzle.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-accent hover:scale-110 transition-transform">-by Nuzzle</Link>
+<h1 className="text-xl font-bold tracking-wide text-primary inline-block">
+  Nudge{" "}
+  <a
+    href="https://nuzzle.onrender.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-accent font-semibold hover:scale-110 transition-transform inline-block ml-1"
+  >
+    — by Nuzzle ↗
+  </a>
+</h1>
             </Link>
           </div>
           <div className="flex items-center gap-2 pr-3">
